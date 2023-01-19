@@ -17,7 +17,7 @@
         <project path="vendor/realme/RMX2020" name="android_vendor_realme_RMX2020" remote="mrkrishnasonawane" revision="arrow-13.0" />
         <project path="vendor/realme/RMX2020-ims" name="android_vendor_realme_RMX2020-ims" remote="mrkrishnasonawane" revision="arrow-13.0" />
         <project path="kernel/realme/RMX2020" name="android_kernel_realme_RMX2020" remote="mrkrishnasonawane" revision="arrow-13.0" clone-depth="1" />
-        <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mrkrishnasonawane" revision="arrow-13.0" />
+        
 
 <!-- clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="mrkrishnasonawane" revision="main" clone-depth="1" />
@@ -39,5 +39,8 @@
         
         <remove-project name="packages_modules_Bluetooth" />
         <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="mrkrishnasonawane" revision="13" />
+        <remove-project name="device_mediatek_sepolicy_vndr" />
+
+        <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mrkrishnasonawane" revision="arrow-13.0" />
   
      </manifest>
